@@ -1,0 +1,22 @@
+C:\Users\Анастасия\source\repos\WCF\ChatHost\obj\Debug\ChatHost.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\source\repos\WCF\ChatHost\bin\Debug\ChatHost.exe.config
+C:\Users\Анастасия\source\repos\WCF\ChatHost\bin\Debug\ChatHost.exe
+C:\Users\Анастасия\source\repos\WCF\ChatHost\bin\Debug\ChatHost.pdb
+C:\Users\Анастасия\source\repos\WCF\ChatHost\bin\Debug\WCF.dll
+C:\Users\Анастасия\source\repos\WCF\ChatHost\bin\Debug\WCF.pdb
+C:\Users\Анастасия\source\repos\WCF\ChatHost\bin\Debug\WCF.dll.config
+C:\Users\Анастасия\source\repos\WCF\ChatHost\obj\Debug\ChatHost.csprojAssemblyReference.cache
+C:\Users\Анастасия\source\repos\WCF\ChatHost\obj\Debug\ChatHost.csproj.CopyComplete
+C:\Users\Анастасия\source\repos\WCF\ChatHost\obj\Debug\ChatHost.exe
+C:\Users\Анастасия\source\repos\WCF\ChatHost\obj\Debug\ChatHost.pdb
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\bin\Debug\ChatHost.exe.config
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\bin\Debug\ChatHost.exe
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\bin\Debug\ChatHost.pdb
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\bin\Debug\WCF.dll
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\bin\Debug\WCF.pdb
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\bin\Debug\WCF.dll.config
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\obj\Debug\ChatHost.csprojAssemblyReference.cache
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\obj\Debug\ChatHost.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\obj\Debug\ChatHost.csproj.CopyComplete
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\obj\Debug\ChatHost.exe
+C:\Users\Анастасия\Desktop\ИСиТ 3 курс\БИПиТ\БИПиТ7\WCF\ChatHost\obj\Debug\ChatHost.pdb

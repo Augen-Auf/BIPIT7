@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="chatDataSet" targetNamespace="http://tempuri.org/chatDataSet.xsd" xmlns:mstns="http://tempuri.org/chatDataSet.xsd" xmlns="http://tempuri.org/chatDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="chatConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="chatConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ChatClient.Properties.Settings.GlobalReference.Default.chatConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MsgVTableAdapter" GeneratorDataComponentClassName="MsgVTableAdapter" Name="MsgV" UserDataComponentName="MsgVTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="chatConnectionString (Settings)" DbObjectName="chat.dbo.MsgV" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT username, msg, time FROM dbo.MsgV</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="username" DataSetColumn="username" />
+              <Mapping SourceColumn="msg" DataSetColumn="msg" />
+              <Mapping SourceColumn="time" DataSetColumn="time" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="chatDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="chatDataSet" msprop:Generator_UserDSName="chatDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MsgV" msprop:Generator_TableClassName="MsgVDataTable" msprop:Generator_TableVarName="tableMsgV" msprop:Generator_TablePropName="MsgV" msprop:Generator_RowDeletingName="MsgVRowDeleting" msprop:Generator_RowChangingName="MsgVRowChanging" msprop:Generator_RowEvHandlerName="MsgVRowChangeEventHandler" msprop:Generator_RowDeletedName="MsgVRowDeleted" msprop:Generator_UserTableName="MsgV" msprop:Generator_RowChangedName="MsgVRowChanged" msprop:Generator_RowEvArgName="MsgVRowChangeEvent" msprop:Generator_RowClassName="MsgVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="msg" msprop:Generator_ColumnVarNameInTable="columnmsg" msprop:Generator_ColumnPropNameInRow="msg" msprop:Generator_ColumnPropNameInTable="msgColumn" msprop:Generator_UserColumnName="msg">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnPropNameInTable="timeColumn" msprop:Generator_UserColumnName="time" type="xs:duration" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
